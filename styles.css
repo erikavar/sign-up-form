@@ -1,0 +1,150 @@
+:root {
+    font-size: 12px;
+    background-color: rgb(69, 62, 88);
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(255, 223, 228)
+}
+
+a {
+    color: rgb(255, 223, 228);
+}
+
+a:visited {
+    color:rgb(210, 169, 230)
+}
+
+.container {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(101, 90, 129);
+    border-radius: 10px;
+    
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.container > * {
+    display: inline-block;
+}
+
+.picture-container {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.picture-container > img {
+    height: 600px;
+    width: 100%;
+    border-radius: 10px 0px 0px 10px;
+    object-fit: cover;
+}
+
+.photocred {
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+    font-size: 8px;
+}
+
+.form-container {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.form-container > h2 {
+    margin: 8rem 3rem 1rem;
+    color: white;
+}
+
+.form-container > h3 {
+    margin: 1rem 3rem 2rem;
+    line-height: 2rem;
+}
+
+form {
+    background-color:rgb(90, 80, 114);
+    position: relative;
+}
+
+label {
+    font-size: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+input {
+    outline: none;
+    border: 2px solid rgb(101, 90, 129);
+    background-color: rgb(255, 223, 228);
+    border-radius: 5px;
+    width: 15rem;
+    height: 1.5rem;
+}
+
+input:focus {
+    border: 2px solid goldenrod;
+    box-shadow: 3px 3px 3px rgb(69, 62, 88);
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+.userinputs > div {
+    display: inline-block;
+    margin: 1rem 4rem 2rem 3rem;
+}
+
+input, label {
+    display: flex;
+    flex-direction: column;
+}
+
+.btncontainer {
+    position: absolute;
+    background-color: rgb(101, 90, 129);
+    left: 0px;
+    bottom: -7.25rem;
+}
+
+button {
+    outline: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.75rem;
+    color: rgb(69, 62, 88);
+    border: 0.2rem solid goldenrod;
+    border-radius: 5px;
+    background-color: goldenrod;
+    box-shadow: 3px 3px 3px rgb(69, 62, 88);
+    margin: 2rem 1rem 2rem 3rem;
+    padding: 1rem 2rem 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    color: goldenrod;
+    background-color: rgb(101, 90, 129);
+}
+
+button:active {
+    background-color:rgb(69, 62, 88);
+}
+
+.returning {
+    position: relative;
+    margin: 8rem 1rem 1rem 3rem;
+}
+
+.disclaimer {
+    font-size: 0.6rem;
+    font-style: italic;
+    color:rgb(69, 62, 88);
+    position: absolute;
+    bottom: 1px;
+    right: 8px;
+}

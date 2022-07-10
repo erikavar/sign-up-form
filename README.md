@@ -1,1 +1,3 @@
-# sign-up-form
+# Sign-Up Form
+
+This is a simple sign-up form made with HTML and CSS. Created this to get familiar with form setup client-side validation and to practice CSS positioning.

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="picture-container">
+            <img src="buildings-image.avif">
+            <p class="photocred">Photo by <a href="https://unsplash.com/@vork">Mark Boss</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+        </div><!--
+        --><div class="form-container">
+            <h2>Welcome to CITY BUILDER</h2>
+            <h3>Register now to enter a world of possibilities</h3>
+            <form action="#" method="get">
+                <span class="userinputs">
+                <div>
+                    <label for="fname">FIRST NAME</label>
+                    <input id="fname" type="text" required>
+                </div>
+
+                <div>
+                    <label for="lname">LAST NAME</label>
+                    <input id="lname" type="text" required>
+                </div>
+
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input id="email" type="email" required>
+                </div>
+                
+                <div>
+                    <label for="num">PHONE NUMBER</label>
+                    <input id="num" type="tel" minlength="10" maxlength="10" pattern="[0-9]{10}" title="Enter a 10-digit phone number without hyphens or parentheses, example: 1231231234" required>
+                </div>
+
+                <div>
+                    <label for="pword">PASSWORD</label>
+                    <input id="pword" type="password" minlength="8" required>
+                </div>
+
+                <div>
+                    <label for="cpword">CONFIRM PASSWORD</label>
+                    <input id="cpword" type="password" minlength="8" required>
+                </div>
+                </span>
+
+                <span class="btncontainer">
+                    <button>Create Account</button>
+                </span>
+
+            </form>
+            
+            <p class="returning">Already have an account? <a href="#"><u>Log in</u></a></p>
+            <p class="disclaimer">This is not a real online service.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
